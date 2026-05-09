@@ -442,6 +442,8 @@ def convert(md_text, theme_name="default", inline_images_base_dir=None):
     body = md.convert(md_text)
     body = style_figure_captions(body)
     body = style_heading_underlines(body)
+    # Strip <a> tags — WeChat doesn't allow external links
+    body = re.sub(r'<a [^>]*>(.*?)</a>', r'\1', body, flags=re.DOTALL)
 
     if inline_images_base_dir is not None:
         body = inline_images(body, inline_images_base_dir)

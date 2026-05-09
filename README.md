@@ -30,18 +30,26 @@ pip install --user openai-whisper yt-dlp ddgs requests pillow markdown premailer
 
 在 Kiro CLI 中直接说：
 
-- "帮我把这个视频转成公众号文章" + 提供 URL 或文件路径
+- "帮我把这个视频转成公众号文章" + 提供 YouTube/Bilibili URL
+- "处理这个本地视频" + 提供文件路径
 - "视频转文章"
-- "transcribe and format"
+
+支持的输入：
+- **视频链接**（YouTube、Bilibili 等）— 优先下载平台自动字幕，质量不够再用 Whisper 转录
+- **本地视频/音频文件** — 直接 Whisper 转录
+- **已有字幕/文稿** — 直接使用
 
 Agent 会自动按照 `.kiro/skills/interview-to-article/skill.md` 中定义的 8 步流程执行。
 
 ## 工作流概览
 
 ```
-视频/音频 URL 或文件
+视频/音频 URL 或本地文件
     ↓
-Step 1: 转录 + 识别语言 (Whisper + yt-dlp)
+Step 1: 获取字幕/转录 + 识别语言
+         ├── URL → 先尝试下载平台字幕（免费、即时）
+         ├── 字幕质量不够 → Whisper 转录
+         └── 本地文件 → Whisper 转录
     ↓
 Step 2: 提取主题
     ↓

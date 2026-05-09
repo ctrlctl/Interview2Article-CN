@@ -46,23 +46,38 @@ python $SCRIPTS/<script>.py <args>
 
 ### Step 1: Transcribe & Detect Language
 
-- URL: `python $SCRIPTS/extract_srt.py <URL>` (yt-dlp + Whisper, auto language detection)
+**Input types:**
+- Video URL (YouTube, Bilibili, etc.)
+- Local video/audio file (unreleased content)
+- Existing transcript file (SRT, VTT, TXT)
+
+**For URLs — try auto-subtitles first:**
+1. Run `yt-dlp --list-subs <URL>` to check available subtitles
+2. If auto-generated subtitles exist (e.g. `en-orig`, `zh-Hans`), download them: `yt-dlp --write-auto-sub --sub-lang <lang> --sub-format srt --skip-download <URL>`
+3. Review subtitle quality — if coherent and complete, use directly (skip Whisper)
+4. If no subtitles available, or quality is poor (garbled, incomplete), fall back to Whisper transcription
+
+**Whisper fallback:**
+- URL: `python $SCRIPTS/extract_srt.py <URL>`
 - Local file: `python $SCRIPTS/extract_srt.py <file_path>`
-- Existing transcript: use directly
-- Identify the dominant language (English / Chinese / mixed) — this determines bilingual vs Chinese-only output in later steps
-- Output: `<output_folder>/drafts/raw_transcript.md`
 
 **Model selection (assumes no dedicated GPU, CPU-only):**
 - English source: use `small` (default) — adequate accuracy, ~5-10 min for a 13-min video
 - Chinese source: use `medium` — significantly better for Chinese proper nouns, ~15-25 min on CPU
 
 ```bash
-# English (default)
+# Download auto-subtitles (preferred, instant)
+yt-dlp --write-auto-sub --sub-lang en-orig --sub-format srt --skip-download -o "<output_folder>/drafts/%(id)s" <URL>
+
+# Whisper fallback — English (default model)
 python $SCRIPTS/extract_srt.py <URL>
 
-# Chinese — specify medium model
+# Whisper fallback — Chinese (medium model)
 python $SCRIPTS/extract_srt.py <URL> auto medium
 ```
+
+- Identify the dominant language (English / Chinese / mixed)
+- Output: `<output_folder>/drafts/raw_transcript.md`
 
 ### Step 2: Topic Extraction
 
@@ -131,6 +146,7 @@ Group adjacent segments by theme (2-5 exchanges per group). Give each a concise 
 - **Bold** brand/product names on first mention
 - Preserve speaker's words verbatim
 - Images only in full interview body, not in highlights/intro
+- No clickable external links in the final article — WeChat strips them. Use plain text for URLs (e.g. credits section can mention the source URL as text, not as a markdown link)
 
 ### Step 6: Product Image Insertion
 
