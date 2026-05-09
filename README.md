@@ -1,4 +1,4 @@
-# Video to WeChat Article
+# Interview2Article-CN
 
 将采访视频/音频转化为微信公众号文章和小红书轮播图的自动化工作流。
 
@@ -7,8 +7,8 @@
 ### 克隆项目
 
 ```bash
-git clone git@github.com:ctrlctl/SynthVideoToWechat.git
-cd SynthVideoToWechat
+git clone git@github.com:ctrlctl/Interview2Article-CN.git
+cd Interview2Article-CN
 ```
 
 ### 依赖安装
