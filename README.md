@@ -6,7 +6,10 @@
 
 微信公众号文章：[Make Noise SoundHack Plexiphon 采访](https://mp.weixin.qq.com/s/HIkysFsUbF8GDgbdAiRnuQ)
 
-![微信公众号文章预览](./260508_sonicstate_MakeNoise_Plexiphon/readme_images/html_preview.png)
+<p>
+<img src="./260508_sonicstate_MakeNoise_Plexiphon/readme_images/html_preview.png" width="48%" alt="微信公众号文章预览" />
+<img src="./260508_sonicstate_MakeNoise_Plexiphon/readme_images/xhs_preview.png" width="48%" alt="小红书轮播图预览" />
+</p>
 
 ## 特色功能
 
