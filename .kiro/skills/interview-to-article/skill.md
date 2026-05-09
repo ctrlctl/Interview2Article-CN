@@ -121,6 +121,10 @@ Output: `<output_folder>/drafts/article_draft.md`
 # Title
 ### Subtitle
 
+> Source / 来源: [channel name] — [original video title]
+> Link / 链接: [URL as plain text]
+> Author / 作者: [interviewer/channel]
+
 ## Intro (2-4 sentences, bilingual if applicable)
 ---
 ## Highlights (5-10 bold-label + one-sentence takeaways)
@@ -133,7 +137,7 @@ Output: `<output_folder>/drafts/article_draft.md`
 ### [Topic cluster]
 ...
 ---
-Credits
+Credits (interviewer, editor, source URL again)
 ```
 
 #### Topic Clustering

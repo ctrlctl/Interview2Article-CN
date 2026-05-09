@@ -1,6 +1,10 @@
 # Make Noise: SoundHack Plexiphon 采访
 ### Superbooth 2026 — A New Stereo Spatial Texturizer
 
+> 来源: sonicstate — Make Noise: Soundhack Plexiphon - Superbooth 2026
+> 链接: https://www.youtube.com/watch?v=gSAGc_-cWrs
+> 作者: Matt (sonicstate)
+
 ## 简介
 
 在 Superbooth 2026 上，sonicstate 的 Matt 与 **Make Noise** 的 Walker 聊了聊全新模块 **SoundHack Plexiphon**——一款与 Tom Erb 合作开发的立体声空间纹理化器。这是继 **Morphagene**、**Spectraphon**、**Mimeophon** 之后，Make Noise 与 SoundHack 合作的又一力作。
