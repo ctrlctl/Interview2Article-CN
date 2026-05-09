@@ -70,10 +70,10 @@ Step 8: 多平台输出
 
 ## 输出目录结构
 
-每个项目生成一个 `YYMMDD_ShortName/` 文件夹：
+每个项目生成一个 `YYMMDD_作者_标题/` 文件夹：
 
 ```
-260508_MakeNoise/
+260508_sonicstate_MakeNoise_Plexiphon/
 ├── final_article.md      ← 最终文章 (Markdown)
 ├── wechat/article.html   ← 微信公众号 (复制粘贴到编辑器)
 ├── xhs/01.png ~ N.png    ← 小红书轮播图

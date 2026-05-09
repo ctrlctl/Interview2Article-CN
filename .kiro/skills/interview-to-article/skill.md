@@ -26,7 +26,7 @@ If no matching domain file exists, research the domain (search for key brands, t
 │   └── transcribe_audio.py   # Whisper-only transcription
 └── references/
 
-<YYMMDD>_<ShortName>/         # Output per project
+<YYMMDD>_<Author>_<Title>/       # Output per project, e.g. 260508_sonicstate_MakeNoise_Plexiphon
 ├── final_article.md           # Final Markdown (source of truth)
 ├── wechat/                    # WeChat HTML (ready to paste)
 ├── xhs/                       # XHS images (ready to post)
