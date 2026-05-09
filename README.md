@@ -73,7 +73,7 @@ Step 8: 多平台输出
 每个项目生成一个 `YYMMDD_ShortName/` 文件夹：
 
 ```
-260508_Bastl/
+260508_MakeNoise/
 ├── final_article.md      ← 最终文章 (Markdown)
 ├── wechat/article.html   ← 微信公众号 (复制粘贴到编辑器)
 ├── xhs/01.png ~ N.png    ← 小红书轮播图
