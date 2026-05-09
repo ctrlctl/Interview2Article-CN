@@ -2,6 +2,12 @@
 
 将采访视频/音频转化为微信公众号文章和小红书轮播图的自动化工作流。
 
+## 示例效果
+
+微信公众号文章：[Make Noise SoundHack Plexiphon 采访](https://mp.weixin.qq.com/s/HIkysFsUbF8GDgbdAiRnuQ)
+
+![微信公众号文章预览](./260508_sonicstate_MakeNoise_Plexiphon/readme_images/html_preview.png)
+
 ## 特色功能
 
 - 🎙️ **一键转录** — Whisper 本地转录，自动检测语言，无需 API key

@@ -21,7 +21,7 @@
 | Qu-bit Electronix | Qu-bit, Cubit | 美国品牌 |
 | Zlosynth Instruments | — | 独立品牌 |
 | Shakmat Modular | Shakmat | 比利时品牌 |
-| Make Noise | MakeNoise, 制造噪音 | 美国 Eurorack 品牌 |
+| Make Noise | MakeNoise, 制造噪音 | 美国 Eurorack 品牌，Tony Rolando 2008 年创立，受 Buchla/Serge 影响 |
 | Mutable Instruments | Mutable, 可变 | 法国品牌（已停产） |
 | Teenage Engineering | TE | 瑞典品牌 |
 | Arturia | 阿图利亚 | 法国品牌 |
@@ -43,10 +43,34 @@
 
 | 英文 | 中文/备注 |
 |------|-----------|
+| Tony Rolando | Make Noise 创始人，自学电子乐器设计，曾在 Moog Music 工作 |
+| Tom Erbe | SoundHack 开发者，与 Make Noise 合作开发 Morphagene/Spectraphon/Mimeophon/Plexiphon |
+| Walker | Make Noise 产品专家，负责展会演示 |
+| Dieter Doepfer | Doepfer 创始人，Eurorack 格式标准的发明者 |
+| Don Buchla | Buchla 创始人，西海岸合成先驱 |
+| Bob Moog | Moog 创始人，东海岸合成先驱 |
+| Dave Smith | Sequential 创始人，MIDI 协议发明人之一（已故） |
+| Émilie Gillet | Mutable Instruments 创始人/唯一开发者（品牌已停产，开源） |
+| Danjel van Tijn | Intellijel 创始人 |
+| Dieter Collini | Noise Engineering 联合创始人 |
+| Stephen McCaul | Noise Engineering 联合创始人 |
 | Václav Peloušek | Bastl Instruments 联合创始人/开发者 |
 | Václav Mach | Bastl Instruments 联合创始人/设计师 |
+| Walker Farrell | Make Noise 产品专家 |
+| Markus Schneider | Endorphin.es 创始人 |
+| Jason Lim | ALM/Busy Circuits 创始人 |
+| Tom Whitwell | Music Thing Modular 创始人（开源硬件） |
+| Olivier Gillet | 同 Émilie Gillet（transition 前用名） |
 | MengQi (孟奇) | 中国独立模块开发者 |
 | Andrew | 加拿大电子音乐人，经营锡人乐器 |
+| Nick Batt | sonicstate 创始人/主持人 |
+| Loopop | YouTube 合成器评测博主 |
+| Hainbach | YouTube 实验音乐/磁带博主 |
+| Ricky Tinez | YouTube 合成器演示博主 |
+| Colin Benders | 荷兰模块合成器演奏家/直播 |
+| Benn Jordan | YouTube 音乐制作/合成器博主 |
+| Mylar Melodies | YouTube 模块合成器博主 |
+| DivKid | YouTube 模块合成器评测博主（Ben Wilson） |
 
 ## 产品名中英对照
 
@@ -60,6 +84,11 @@
 | Citadel / Wave Bard | 平台化合成器，可切换固件 | Bastl |
 | Metal Fetishist | 实验性桌面鼓机 | Body Synth |
 | Digitone (MK1/MK2) | FM 合成器 | Elektron |
+| Plexiphon | 立体声空间纹理化器 (stereo spatial texturizer) | Make Noise × SoundHack |
+| Morphagene | 微声粒子采样器 (microsound) | Make Noise × SoundHack |
+| Spectraphon | 频谱振荡器/分析器 | Make Noise × SoundHack |
+| Mimeophon | 立体声多区域中继器 (repeater) | Make Noise × SoundHack |
+| Maths | 模拟函数发生器/包络 | Make Noise |
 | Oberhausen | 复杂振荡器 (complex oscillator)，42HP | ST Modular |
 | Krakong | 生成式双复音合成器 | ST Modular |
 | Alstaden | 波形塑形振荡器，用于低音 | ST Modular |
