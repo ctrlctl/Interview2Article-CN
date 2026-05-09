@@ -1,0 +1,504 @@
+1
+00:00:00,000 --> 00:00:08,000
+Hello everyone, today we invited the best bass instrument designer, Wes Lechmech and Wes Lechmech
+
+2
+00:00:08,000 --> 00:00:12,000
+to perform a special interview with the Chinese module community
+
+3
+00:00:18,000 --> 00:00:23,000
+The one on my left is Wes Lechmech, the designer of the bass instrument
+
+4
+00:00:23,000 --> 00:00:27,000
+and on this side is Wes Lechmech, the developer of the bass instrument
+
+5
+00:00:27,000 --> 00:00:32,000
+The next interview will be held in English
+
+6
+00:00:32,000 --> 00:00:36,000
+The translation will be published in the official account
+
+7
+00:00:57,000 --> 00:01:08,000
+The event is a lot of space for young people and young people to perform
+
+8
+00:01:08,000 --> 00:01:12,000
+and I think that's very important for building up the community
+
+9
+00:01:12,000 --> 00:01:17,000
+You mentioned that you were mostly engaged in the module community last weekend
+
+10
+00:01:17,000 --> 00:01:19,000
+and that's your other time
+
+11
+00:01:19,000 --> 00:01:24,000
+So not only preparing two days in a row, but also we had a performance in the main event
+
+12
+00:01:24,000 --> 00:01:26,000
+and also one after party
+
+13
+00:01:26,000 --> 00:01:29,000
+What are your impressions for the module community?
+
+14
+00:01:32,000 --> 00:01:39,000
+It feels like I felt really at home because one of the other people who make modules since
+
+15
+00:01:39,000 --> 00:01:42,000
+have been my friends for a long time
+
+16
+00:01:42,000 --> 00:01:46,000
+and I met them all here and also met a lot of Chinese people
+
+17
+00:01:46,000 --> 00:01:49,000
+and it's been very welcoming
+
+18
+00:01:49,000 --> 00:01:51,000
+Thank you so much
+
+19
+00:01:51,000 --> 00:01:55,000
+Which part of the module community was considered your favorite part?
+
+20
+00:01:55,000 --> 00:02:03,000
+I think the performances, especially the short slots where people could try out new things
+
+21
+00:02:06,000 --> 00:02:10,000
+Another question is there are also many independent developers from China
+
+22
+00:02:10,000 --> 00:02:14,000
+like Sun Tzu, Wyn Rikiat and also Cody Inspire
+
+23
+00:02:14,000 --> 00:02:17,000
+and Hong Chi, you know him
+
+24
+00:02:17,000 --> 00:02:22,000
+So are there any interesting products or ideas you find interesting from them?
+
+25
+00:02:22,000 --> 00:02:26,000
+Yeah, I think Hong Chi is always inspiring
+
+26
+00:02:26,000 --> 00:02:30,000
+Very great thinking behind modules
+
+27
+00:02:30,000 --> 00:02:36,000
+It was great to see there is more, like coding inspired also, very interesting stuff
+
+28
+00:02:36,000 --> 00:02:38,000
+Thank you
+
+29
+00:02:38,000 --> 00:02:43,000
+So now we begin with some questions for your coming for Bazel Instrument
+
+30
+00:02:43,000 --> 00:02:48,000
+So firstly, as a global viewer of the brand, can you describe Bazel Instrument in one or three words?
+
+31
+00:02:50,000 --> 00:02:55,000
+I think the most important for us is to have fun with the instruments
+
+32
+00:02:55,000 --> 00:03:01,000
+So I have fun and also we do a lot of compact things
+
+33
+00:03:01,000 --> 00:03:07,000
+like compact instruments, so maybe these two birds would be...
+
+34
+00:03:07,000 --> 00:03:10,000
+And I can add inspiring
+
+35
+00:03:10,000 --> 00:03:14,000
+So it would be fun, compact and inspiring
+
+36
+00:03:14,000 --> 00:03:20,000
+While that could make those beginners or someone else who have a good global viewer of the Bazel Instrument
+
+37
+00:03:20,000 --> 00:03:25,000
+So are there any consistent goals or principles when you are designing your own product?
+
+38
+00:03:27,000 --> 00:03:34,000
+I think these three words really, I think the inspiring factor and like keeping it musical
+
+39
+00:03:34,000 --> 00:03:46,000
+So we try to not design like every single control from a technical perspective, but from a musical goal
+
+40
+00:03:46,000 --> 00:03:54,000
+So you have one knob and it doesn't need to be like setting analog capacitors anywhere
+
+41
+00:03:54,000 --> 00:03:57,000
+It's like most of our designs are digital
+
+42
+00:03:58,000 --> 00:04:02,000
+And even the analog ones, they have some like macro controls
+
+43
+00:04:02,000 --> 00:04:06,000
+and there is always some musical intention behind every single control
+
+44
+00:04:06,000 --> 00:04:13,000
+So we think about pots more like musical controls, not like technical controls
+
+45
+00:04:13,000 --> 00:04:19,000
+So could you share one of the interesting stories when you develop some of your product?
+
+46
+00:04:21,000 --> 00:04:23,000
+I need to think about this one
+
+47
+00:04:28,000 --> 00:04:40,000
+It's interesting, I mean like most recently I was like telling this joke but I don't know if it's true or not
+
+48
+00:04:40,000 --> 00:04:47,000
+but I was telling somebody as a joke that the Citadel was designed by a YouTube commenter
+
+49
+00:04:47,000 --> 00:04:51,000
+Yeah, that's not true
+
+50
+00:04:51,000 --> 00:04:54,000
+That's not true, you designed it before
+
+51
+00:04:54,000 --> 00:05:00,000
+So if we are going to have some new ideas or new product we want to have, we can comment on your YouTube channel
+
+52
+00:05:00,000 --> 00:05:11,000
+Yes, we do follow the users and we follow their suggestions
+
+53
+00:05:11,000 --> 00:05:20,000
+So we are like always happy to develop people's ideas but this actually one most of our ideas
+
+54
+00:05:20,000 --> 00:05:23,000
+Yeah, it was your idea
+
+55
+00:05:26,000 --> 00:05:31,000
+So name one, base of product, that's your favorite?
+
+56
+00:05:31,000 --> 00:05:39,000
+If it was a Euroric module, I think I could not live without the Neotrinity
+
+57
+00:05:39,000 --> 00:05:46,000
+Neotrinity, yes definitely like a control center and like CV recorder, gas recorder
+
+58
+00:05:46,000 --> 00:05:48,000
+What about you?
+
+59
+00:05:48,000 --> 00:05:57,000
+Yeah, for me I really like, even though I wasn't working on it, I really like the dark matter
+
+60
+00:05:57,000 --> 00:06:05,000
+for like the way how it crunches the sound and you can do like a lot of experimental stuff with it, noisy stuff
+
+61
+00:06:05,000 --> 00:06:07,000
+So that's my favorite
+
+62
+00:06:07,000 --> 00:06:13,000
+Dark matter, so we are using Neotrinity, what you usually use, F4 and other advanced tips for using that
+
+63
+00:06:13,000 --> 00:06:26,000
+So with Neotrinity we were like rethinking like what modulation is and how you would want to do complex modulation from a musical perspective
+
+64
+00:06:26,000 --> 00:06:37,000
+So there are like three different ways of creating modulation and they all have this gestural control that you can like record the knob for it
+
+65
+00:06:37,000 --> 00:06:46,000
+for instance and then it keeps repeating itself so that it's sort of like a looper but for modulation
+
+66
+00:06:46,000 --> 00:06:57,000
+and I think this is like very like direct musical way of expressing yourself and translating the musical idea into the sound
+
+67
+00:06:57,000 --> 00:07:06,000
+Good, then recently the Caso series like the standalone one are really popular among the YouTube channels and also in China
+
+68
+00:07:06,000 --> 00:07:14,000
+and also this Saturday we just released like last month, so how did it come up with an idea of doing such a series of product?
+
+69
+00:07:14,000 --> 00:07:24,000
+Yeah, it started like many years ago when I was designing the first Caso series that was like 10 years ago
+
+70
+00:07:24,000 --> 00:07:31,000
+that came up with the idea to make like modular send power by batteries like as compact as possible
+
+71
+00:07:31,000 --> 00:07:38,000
+And also cheap and affordable for everyone because modular is, can be expensive?
+
+72
+00:07:38,000 --> 00:07:52,000
+Yes, there was like the first Caso series which there were three like modules, synthesizer, draw machine and also like arpeggio note playing machine
+
+73
+00:07:52,000 --> 00:08:06,000
+So the Caso 2 is like reworked the first Caso series with like more some fidelity and more some possibilities
+
+74
+00:08:06,000 --> 00:08:19,000
+So that's our like favorite product because it's approachable by even the beginners but also people use it in their like live concerts as well
+
+75
+00:08:19,000 --> 00:08:25,000
+So even though it's like small but very beverage you can also use it for big shows
+
+76
+00:08:25,000 --> 00:08:30,000
+Since they are like a platform as I mentioned you can switch firmware using any USB cable
+
+77
+00:08:30,000 --> 00:08:34,000
+What would be the next firmware for the Caso series?
+
+78
+00:08:34,000 --> 00:08:36,000
+Can we have a little bit of a spoiler about it?
+
+79
+00:08:36,000 --> 00:08:38,000
+Yeah, is that here?
+
+80
+00:08:38,000 --> 00:08:45,000
+So there's a prototype about the new series, the new firmware which is called the Alchemist
+
+81
+00:08:45,000 --> 00:08:48,000
+So what is the Alchemist? Can we have a little bit of a spoiler about it?
+
+82
+00:08:48,000 --> 00:09:03,000
+So the Alchemist is a synthesizer firmware so there are five different synthesis modes that are very flexible but also like very musical
+
+83
+00:09:03,000 --> 00:09:12,000
+And I think they complement each other well and what I like is that you can also modulate between the different modes
+
+84
+00:09:12,000 --> 00:09:22,000
+And you can control like subtractive synthesis with FM synthesis and it becomes like very natural but it would be quite hard to do it
+
+85
+00:09:22,000 --> 00:09:29,000
+Otherwise you would need like a lot of modular gear to be able to do these kinds of like sounds and transitions
+
+86
+00:09:29,000 --> 00:09:43,000
+But like here I think it takes like over a decade of like our experience in modular synths and boils it down into something that is just like instantly fun
+
+87
+00:09:43,000 --> 00:09:50,000
+But there is like more than a decade of work and experience that went into making that
+
+88
+00:09:50,000 --> 00:10:02,000
+Alright so there's a lot of questions from like lots of beginners when we want to start with your rack first it's like it's expensive and also it's hard to like build something from scratch
+
+89
+00:10:02,000 --> 00:10:04,000
+So are there any beginner tips?
+
+90
+00:10:04,000 --> 00:10:16,000
+I think it's great to start with a semi modular because semi modules typically they have everything you need to start
+
+91
+00:10:16,000 --> 00:10:21,000
+And if you expand from a semi modular I think that's like a great way to start
+
+92
+00:10:21,000 --> 00:10:27,000
+It would be easier to like have something pre-built that's to have the ability to patch it to something else
+
+93
+00:10:27,000 --> 00:10:29,000
+Yeah exactly
+
+94
+00:10:29,000 --> 00:10:37,000
+So if you have to start your rack from scratch and you can only buy one product as the first one from bass on instrument which would be happy
+
+95
+00:10:37,000 --> 00:10:42,000
+That one is easy it would be the Citadel wave pad
+
+96
+00:10:42,000 --> 00:10:47,000
+So this is a review December version of the Citadel
+
+97
+00:10:47,000 --> 00:10:58,000
+Yes because there is a sound source you can put your own sound so you can already start working with some sound aesthetic that you choose
+
+98
+00:10:58,000 --> 00:11:08,000
+And it gives you a lot of exploration it has MIDI input it has headphone output so it has everything you need to connect with your other gear
+
+99
+00:11:08,000 --> 00:11:18,000
+And it's fun and also if you expand with like one two three modules from that it has quite powerful modulation source
+
+100
+00:11:18,000 --> 00:11:27,000
+So you can kind of can bring the system together from the very start and if you expand from that I think we can guarantee it will be fun
+
+101
+00:11:27,000 --> 00:11:34,000
+Because it might be quite frustrating when you're starting and if you get a VCO and a filter
+
+102
+00:11:34,000 --> 00:11:36,000
+Yeah that's just like a mono sound
+
+103
+00:11:36,000 --> 00:11:44,000
+It takes a while you need quite some modules to start to have fun but like with this one it's fun from the start
+
+104
+00:11:44,000 --> 00:11:51,000
+It's cheap, it's fun and you can enjoy all those modulation and interesting parts of module
+
+105
+00:11:51,000 --> 00:11:57,000
+Yeah it combines like a lot of modules together which you would need to get separately
+
+106
+00:11:57,000 --> 00:12:07,000
+Maybe like if you want to like deep modulations you can get of course the Neutronete and similar products but the Vape bar can get you started definitely
+
+107
+00:12:07,000 --> 00:12:13,000
+Well the final question is share one of your favorite products or modules that's not in the VCO series
+
+108
+00:12:13,000 --> 00:12:15,000
+Like from other companies
+
+109
+00:12:15,000 --> 00:12:17,000
+Yeah from other companies
+
+110
+00:12:17,000 --> 00:12:22,000
+Yeah my favorite is the Metal Fetishist from BodeSense
+
+111
+00:12:22,000 --> 00:12:24,000
+I've tried that before
+
+112
+00:12:24,000 --> 00:12:30,000
+Yeah it's like an experimental drum machine, it's like a small tabletop which looks a little bit like a guitar pedal
+
+113
+00:12:30,000 --> 00:12:36,000
+And it's like very jammable and I use it in my performances
+
+114
+00:12:36,000 --> 00:12:41,000
+That's a really fun device, also can be combined with a little castle too
+
+115
+00:12:41,000 --> 00:12:44,000
+Of course, so what's your favorite?
+
+116
+00:12:44,000 --> 00:12:49,000
+I think my all time favorite have to be Electron Digitone
+
+117
+00:12:49,000 --> 00:12:51,000
+The first one
+
+118
+00:12:51,000 --> 00:12:57,000
+I mean the second one is great but I think the first one is already good enough
+
+119
+00:12:57,000 --> 00:13:04,000
+That's the one that really helped me musically because it's more limited
+
+120
+00:13:04,000 --> 00:13:09,000
+And that's been one of the most inspiring pieces of gear I had
+
+121
+00:13:09,000 --> 00:13:14,000
+Well thank you and that's the end of this short interview
+
+122
+00:13:14,000 --> 00:13:18,000
+Well that's the end of this short interview
+
+123
+00:13:18,000 --> 00:13:23,000
+Thank you for watching this video and for your attention to our official account and our channel
+
+124
+00:13:23,000 --> 00:13:27,000
+We will update more of your Chinese videos in the future
+
+125
+00:13:27,000 --> 00:13:29,000
+Chinese official videos
+
+126
+00:13:29,000 --> 00:13:30,000
+Thank you
+
