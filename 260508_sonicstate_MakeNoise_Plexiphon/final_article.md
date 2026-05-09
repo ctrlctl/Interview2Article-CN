@@ -51,6 +51,15 @@ A (CN): 这是 **SoundHack Plexiphon**，一个全新的立体声空间纹理化
 ![Make Noise SoundHack Plexiphon](images/Make_Noise_Plexiphon.jpg)
 *▲ Make Noise — SoundHack Plexiphon*
 
+![Make Noise Morphagene](images/Make_Noise_Morphagene_Eurorack_module.jpg)
+*▲ Make Noise — Morphagene*
+
+![Make Noise Spectraphon](images/Make_Noise_Spectraphon_module.jpg)
+*▲ Make Noise — Spectraphon*
+
+![Make Noise Mimeophon](images/Make_Noise_Mimeophon_module.jpg)
+*▲ Make Noise — Mimeophon*
+
 ---
 
 ### Plexus 控制：从混响到延迟

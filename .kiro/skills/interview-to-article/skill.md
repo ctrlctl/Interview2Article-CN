@@ -156,6 +156,11 @@ Group adjacent segments by theme (2-5 exchanges per group). Give each a concise 
 
 ### Step 6: Product Image Insertion
 
+**Which products to fetch images for:**
+Review `drafts/brands_products.md` and select ALL products that are relevant to the interview topic — not just the main product being announced. If the interviewee mentions related products (previous collaborations, comparisons, recommended pairings), fetch images for those too. The goal is product promotion: every product worth showcasing should have a visual.
+
+Example: In a Make Noise Plexiphon interview where Morphagene, Spectraphon, and Mimeophon are mentioned as prior collaborations, fetch images for all four — not just Plexiphon.
+
 ```bash
 python $SCRIPTS/fetch_product_image.py "<Brand> <Product> <modifier>" <output_folder>/images
 ```
@@ -163,6 +168,8 @@ python $SCRIPTS/fetch_product_image.py "<Brand> <Product> <modifier>" <output_fo
 - Exit 0: paste markdown snippet into article at first mention
 - Exit 2: retry with reformulated query once, then use placeholder
 - Exit 3: ask user (network failure)
+
+**Image placement:** Insert at first mention in the full interview body. If a product is only mentioned in passing (one word, no discussion), skip the image.
 
 ### Step 7: Review & Final Output
 
