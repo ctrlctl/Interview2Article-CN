@@ -124,6 +124,8 @@ Output: `<output_folder>/drafts/article_draft.md`
 > Source / 来源: [channel name] — [original video title]
 > Link / 链接: [URL as plain text]
 > Author / 作者: [interviewer/channel]
+> 
+> 免责声明：本文基于原视频内容整理，仅供学习参考。强烈推荐观看原视频获取完整体验。如有侵权请联系删除。
 
 ## Intro (2-4 sentences, bilingual if applicable)
 ---

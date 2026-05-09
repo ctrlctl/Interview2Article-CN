@@ -4,6 +4,8 @@
 > 来源: sonicstate — Make Noise: Soundhack Plexiphon - Superbooth 2026
 > 链接: https://www.youtube.com/watch?v=gSAGc_-cWrs
 > 作者: Matt (sonicstate)
+> 
+> 免责声明：本文基于原视频内容整理，仅供学习参考。强烈推荐观看原视频获取完整体验。如有侵权请联系删除。
 
 ## 简介
 
