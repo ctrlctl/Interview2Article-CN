@@ -57,23 +57,17 @@ python $SCRIPTS/<script>.py <args>
 3. Review subtitle quality — if coherent and complete, use directly (skip Whisper)
 4. If no subtitles available, or quality is poor (garbled, incomplete), fall back to Whisper transcription
 
-**Whisper fallback:**
-- URL: `python $SCRIPTS/extract_srt.py <URL>`
-- Local file: `python $SCRIPTS/extract_srt.py <file_path>`
-
-**Model selection (assumes no dedicated GPU, CPU-only):**
-- English source: use `small` (default) — adequate accuracy, ~5-10 min for a 13-min video
-- Chinese source: use `medium` — significantly better for Chinese proper nouns, ~15-25 min on CPU
+**Whisper fallback — use `transcribe` MCP tool (whisper-mcp-server):**
+```
+transcribe(source="<URL or file path>", language="auto", model_name="medium", output_format="timestamped")
+```
+- Language defaults to `auto` — the server samples 30s from the middle of the audio to detect the dominant language
+- For Chinese source, use `model_name="medium"` (better for proper nouns)
+- For English source, `model_name="small"` is adequate
 
 ```bash
 # Download auto-subtitles (preferred, instant)
 yt-dlp --write-auto-sub --sub-lang en-orig --sub-format srt --skip-download -o "<output_folder>/drafts/%(id)s" <URL>
-
-# Whisper fallback — English (default model)
-python $SCRIPTS/extract_srt.py <URL>
-
-# Whisper fallback — Chinese (medium model)
-python $SCRIPTS/extract_srt.py <URL> auto medium
 ```
 
 - Identify the dominant language (English / Chinese / mixed)
@@ -86,7 +80,19 @@ Output: `<output_folder>/drafts/topics.md`
 
 ### Step 3: Correct Transcript
 
-Using topic context + domain reference file, correct the raw transcript:
+⚠️ **禁止将整篇转录稿一次性读入上下文。必须分块逐段处理。**
+
+#### 分块规则
+
+1. 用 `wc -l <output_folder>/drafts/raw_transcript.md` 查看总行数
+2. 按每块 80-120 行切分（在 Q&A 边界切割，不要在一个回答中间断开）
+3. 逐块处理：每次只读取一个 chunk，完成纠错后写入临时文件 `/tmp/corrected_01.md`、`/tmp/corrected_02.md`...
+4. ⚠️ **写入文件后，不要将已处理内容保留在对话上下文中。下一块处理时只需读取新的原文chunk。**
+5. 所有块处理完成后，合并覆盖 `drafts/raw_transcript.md`
+
+#### 每块处理内容
+
+Using topic context + domain reference file, correct the chunk:
 
 - Fix misrecognized brand/product names (e.g. "Hong Chi" → "MengQi", "Caso" → "Kastle")
 - Fix person names, technical terms, proper nouns
@@ -106,6 +112,14 @@ From the **corrected** transcript, extract 5-10 key takeaways:
 These become the "Highlights" section of the article — scannable, high-value content for readers who won't read the full interview.
 
 ### Step 5: Article Drafting
+
+⚠️ **禁止将整篇纠错后转录稿一次性读入上下文。必须分块逐段起草。**
+
+1. 先读取 `drafts/topics.md` 和 `drafts/brands_products.md`（短文件，常驻上下文作为参考）
+2. 按 Q&A 对为单位切分，每块 3-5 个 Q&A 对
+3. 逐块起草：每次只读取一个 chunk，写入 `/tmp/draft_01.md`、`/tmp/draft_02.md`...
+4. ⚠️ **写入文件后，不要将已起草内容保留在对话上下文中。**
+5. 所有块完成后，合并并补充头部结构（标题、intro、highlights、guest intro），保存为 `drafts/article_draft.md`
 
 Output: `<output_folder>/drafts/article_draft.md`
 
@@ -209,3 +223,4 @@ Produces 1080x1440px PNGs. Max 20 per XHS post.
 3. **Brand accuracy** — cross-reference domain file, flag uncertainties
 4. **Rich media** — product images at first mention in interview body
 5. **Bilingual when needed** — only for English/mixed source; Chinese stays Chinese
+6. **分块处理，不累积上下文** — 长转录稿必须分块处理，每块独立读取→处理→写文件，已处理内容不保留在对话上下文中
